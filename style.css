@@ -1,0 +1,138 @@
+.menubars{
+  width: 60px;
+  margin-top: 13px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, sans-serif;
+}
+section{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+section header{
+  position: absolute;
+  top: 0;
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+
+}
+section header ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+ section header ul li a{
+  color: #111;
+  text-decoration: none;
+  font-size: 20px;
+  
+ }
+ section header ul li button{
+  background: rgb(79, 142, 245);
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  color: azure;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+ }
+ .box1{
+  width: 50px;
+  position: absolute;
+  top: 4px;
+ }
+ .box2{
+  width: 30px;
+  position: absolute;
+  top: 9px;
+  margin-left: 550px;
+
+ }
+ section .main{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+
+ }
+ section .main .searchbox{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 117px;
+  }
+  section .main .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #eee;
+    outline: none;
+    font-size: 16px;
+  }
+  .google{
+    width: 300px;
+    margin-right: 30px;
+  
+  }
+  section .main .buttons{
+    margin-top: 20px;
+  }
+  section .main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 10px;
+  }
+  section .main .buttons button:hover{
+    border: 1px solid #ccc;
+  }
+  section .main .lang{
+    margin-top: 20px;
+  }
+  section .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+ }
+ section .footer .row{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+ }
+ section .footer .row ul{
+  display: flex;
+ }
+ section .footer .row ul li{
+  list-style: none;
+ }
+ section .footer .row ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #5f6368;
+  margin-right: 25px;
+ }
